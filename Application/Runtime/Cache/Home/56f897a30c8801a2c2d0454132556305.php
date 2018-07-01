@@ -33,6 +33,7 @@
 <header>
     <a href="<?php echo U('Index/index');?>">首页</a>
     <a href="<?php echo U('Index/list');?>">文章列表页</a>
+    <a href="<?php echo U('Index/login');?>">登录</a>
 </header>
 <div id="content">
     <!DOCTYPE html>
