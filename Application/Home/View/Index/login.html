@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>验证码</title>
+</head>
+<body>
+<form method="post" action="__URL__/login_do" enctype="multipart/form-data">
+    <input type="file" name="file" placeholder="请选择上传图片"/><br>
+    <input type="text" placeholder="请输入验证码"name="code" required>
+    <img src="{:U('verify')}" alt="" onclick="this.src='{:U(\'verify\')}?'+Math.random()" title="看不清，换一张"></br></br>
+    <button>登录</button>
+</form>
+</body>
+</html>
